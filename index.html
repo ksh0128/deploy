@@ -1,46 +1,66 @@
-<!doctype html>
-
-<html>
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-  <meta charset="utf-8">
-  <title>HTML Example</title>
-  
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/about.css">
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="0">
+<title>실시간 시계</title>
 </head>
 <body>
-  <section class="center">
-    <aside class="sidebar"></aside>
-    
-    <section class="contents">
-      <!-- page will be include here -->
-      <section id="page" class="page">
-        <section id="about">
-          <section class="frame">
-            <h2><b>HELLO</b>WORLD</h2>
-            
-            <div class="cat">
-              <div class="picture">
-                <img src="images/mew.png" alt="Mew">
-              </div>
-              <small>Mew</small>
-            </div>
-            <div class="cat">
-              <div class="picture">
-                <img src="images/siesta.png" alt="Siesta">
-              </div>
-              <small>Siesta</small>
-            </div>
-            <div class="cat">
-              <div class="picture">
-                <img src="images/tiger.png" alt="Tiger">
-              </div>
-              <small>Tiger</small>
-            </div>
-          </section>
-        </section>
-      </section>
-    </section>
-  </section>
+<script>
+
+var now = new Date();
+
+var weekday = [];
+weekday[0]=  "일요일";
+weekday[1] = "월요일";
+weekday[2] = "화요일";
+weekday[3] = "수요일";
+weekday[4] = "목요일";
+weekday[5] = "금요일";
+weekday[6] = "토요일";
+
+document.write(now.getFullYear() + "년 ");
+document.write(now.getMonth()+1 + "월 ");
+document.write(now.getDate() + "일 ");
+
+var wd = now.getDay()
+document.write(weekday[wd] + "");
+
+document.write(now.getHours() + "시 ");
+document.write(now.getMinutes() + "분 ");
+document.write(now.getSeconds() + "초");
+
+
+</script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h6>&#169;이 저작물은 김성헌의 개인 소유물이며 배포 또는 상품화등 사용을 위해서는 김성헌(koreaksh31415926535@gmail.com)과의 정당한 계약이 있어야 함</h6>
 </body>
 </html>
